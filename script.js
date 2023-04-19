@@ -26,6 +26,7 @@ function letterCombinations(input_digit) {
 		for(const combination of ramainingComb){
 			combination.pust=letter+combination;
 		}}
+	return combination.sort();
 	
 }
 
