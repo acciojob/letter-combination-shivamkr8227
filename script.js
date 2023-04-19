@@ -1,6 +1,8 @@
 function letterCombinations(input_digit) {
   //Complete the function
 	const digitMap={
+		"0":["0"],
+		"1":["1"],
 		"2":["a","b","c"],
 		"3":["d","e","f],
 		"4":["g","h","i"],
@@ -9,13 +11,13 @@ function letterCombinations(input_digit) {
 		"7":["p","q","r","s"],
 		"8":["t","u","v"],
 		"9":["w","x","y","z"],
-		"2":["a","b","c"],
+		"2":["a","b","c"]
 	};
-	if(input_digit.length==0)
+	if(input_digit.length===0)
 	{
 		return[];
 	}
-	if(input_digit.length==1)
+	if(input_digit.length===1)
 	{
 		return digitMap[input_digit];
 	}
