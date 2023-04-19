@@ -25,8 +25,8 @@ function letterCombinations(input_digit) {
 	const currentLetter=digitMap[input_digit[0]];
 	const combination=[];
 	for(const letter of currentLetter){
-		for(const combination of ramainingComb){
-			combination.pusd=letter+combination;
+		for(const remainingcombination of ramainingComb){
+			combination.push=letter+remainingcombination;
 		}}
 	return combination.sort();
 	
