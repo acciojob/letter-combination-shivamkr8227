@@ -26,7 +26,7 @@ function letterCombinations(input_digit) {
 	const combination=[];
 	for(const letter of currentLetter){
 		for(const remainingcombination of ramainingComb){
-			combination.push=letter+remainingcombination;
+			combination.push(letter+remainingcombination);
 		}}
 	return combination.sort();
 	
